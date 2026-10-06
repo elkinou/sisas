@@ -2,7 +2,7 @@ n = int(input("Ingrese un entero positivo n: "))
 
 while n <= 0:
     print("El número debe ser positivo.")
-    n = int(input("Ingrese un entero positivo n: "))
+    n = int(input("Ingrese un entero positivo n: ")) 
 
 primos = []
 
