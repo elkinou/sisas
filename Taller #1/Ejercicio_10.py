@@ -9,10 +9,6 @@ primos = []
 for num in range(2, n + 1):
     es_primo = True
     
-    # Si un número 'num' tiene un divisor 'a' mayor que su raíz cuadrada,
-    # debe existir otro divisor 'b' menor que su raíz tal que a * b = num.
-    # Por tanto, si no encontramos ningún divisor hasta int(num ** 0.5),
-    # es imposible que exista uno más adelante y el número es primo.
     limite = int(num ** 0.5)
     
     for i in range(2, limite + 1):
